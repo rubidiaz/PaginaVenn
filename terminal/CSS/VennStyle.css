@@ -154,3 +154,105 @@ span{
     }
 }*/
 /*3ra parte*/
+.procesoRegistrp{
+    display: block;
+    max-width: 868px;
+    margin: auto;
+    text-align: center;
+}
+.divisionColumnas .columna div{
+    display: block;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    position: center;
+}
+#img_1{
+    background: url(img/Grupo\ 9210.webp) no-repeat;
+    margin-top: 40px;
+}
+#img_1:hover{
+    background: url(img/nuevo7023.svg) no-repeat;
+    margin-top: 40px;
+}
+#img_2{
+    background: url(img/Grupo\ 7025.webp) no-repeat;
+    margin-top: 40px;
+}
+#img_2:hover{
+    background: url(img/nuevo7025.svg) no-repeat;
+    margin-top: 40px;
+}
+#img_3{
+    background: url(img/Grupo\ 7024.webp) no-repeat;
+    margin-top: 40px;
+}
+#img_3:hover{
+    background: url(img/Grupo-7024-1.svg) no-repeat;
+    margin-top: 40px;
+}
+.divisionColumnas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: url(img/Rectángulo\ 8199@3x.webp) no-repeat;
+    background-size: 76%;
+    background-position: center;
+    margin: 20px 300px 20px 300px; 
+    text-align: center;
+}
+.divisionColumnas .columna:first-child{
+    justify-self: start;
+}
+.divisionColumnas .columna:last-child{
+    justify-self: end;
+}
+.columna div:hover{
+    cursor: pointer;
+}
+#registro{
+    color: white;
+    background-image: linear-gradient(0deg,#007fff 0%, #00b1ff 100%);
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+#registro:hover{
+    color: #1489ff;
+    background: white;
+    border-color: #1489ff;
+    cursor: pointer;
+}
+#titulo3{
+    margin: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+.texto{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.columna img{
+    max-width: 44px;
+    max-height: 27px;
+}
+/*reponsive*/
+/*@media screen and (max-width:776px) {
+    #titulo3{
+        text-align: center;
+        font-size: 20px;
+    }
+    .divisionColumnas{
+        display: block;
+        text-align: center;
+        background: url();
+        width: 165px;
+    }
+    .columna{
+        line-height: 36px;
+    }
+}*/
