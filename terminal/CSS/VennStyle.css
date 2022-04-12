@@ -1,15 +1,61 @@
 *{
     font-family: 'Hind', sans-serif;   
 }
-
+#background{
+    background: url(img/Enmascarar\ grupo\ 289@3x.webp);
+    background-size: 100%;
+    background-position: center;
+    width: 1353px;
+    height: 668px;
+}
+.iconoInicio img{
+    height: 105px;
+    width: auto;
+    position: relative;
+    display: flex;;
+    margin: 0;
+    border: none;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iconoInicio{
+    align-items: center;
+}
+#bloque{
+    position: relative;
+    margin: 5px 10px 5px 10px
+}
+#texbienvenida{
+    text-align: center;
+    line-height: 1.17;
+    margin: 0;
+    letter-spacing: inherit;
+    padding-bottom: 0;
+    margin: 25px 260px 25px 270px;
+}   
+#registro{
+    background-color: #007fff;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 13px 25px 13px 25px;
+    box-shadow: 0px 15px 12px 0px rgb(153 176 190 / 35%);
+}
 #tarjetausuario{
     border: 1px solid rgb(199, 199, 199);
     max-width: 629px;
-    margin: auto;
+    height: 232px;
+    margin: 30px 300px 30px 300px;
     border-radius: 10px;
     padding: 16px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 100px 400px;
+    align-content: center;
 }
 #tarjetausuario .conteIzq:nth-child(1) img{
     max-width: 270px;
@@ -30,7 +76,7 @@
     grid-template-columns: auto auto;
     margin-bottom: 16px;
 }
-.trabajo .estrellas{
+.conteDer{
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -63,6 +109,8 @@
 span{
     margin: 0;
 }
+ /*hacerlo responsive*/
+
 @media screen and (min-width:630px) {
     #tarjetausuario{
         grid-template-columns: auto auto;
@@ -71,3 +119,10 @@ span{
         justify-self: start;
     }
 }
+/*
+@media screen and (min-width:1200px) {
+    #background {
+        width: 1400px;
+    }
+}*/
+/*2da seccion*/
