@@ -1,0 +1,378 @@
+*{
+    font-family: 'Hind', sans-serif;   
+}
+#background{
+    background: url(img/Enmascarar\ grupo\ 289@3x.webp);
+    background-size: 100%;
+    background-position: center;
+    width: 1353px;
+    height: 668px;
+}
+.iconoInicio img{
+    height: 105px;
+    width: auto;
+    position: relative;
+    display: flex;;
+    margin: 0;
+    border: none;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iconoInicio{
+    align-items: center;
+}
+#bloque{
+    position: relative;
+    margin: 5px 10px 5px 10px
+}
+#texbienvenida{
+    text-align: center;
+    line-height: 1.17;
+    margin: 0;
+    letter-spacing: inherit;
+    padding-bottom: 0;
+    margin: 25px 260px 25px 270px;
+}   
+#registro{
+    background-color: #007fff;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 13px 25px 13px 25px;
+    box-shadow: 0px 15px 12px 0px rgb(153 176 190 / 35%);
+}
+#tarjetausuario{
+    border: 1px solid rgb(199, 199, 199);
+    max-width: 629px;
+    height: 232px;
+    margin: 30px 300px 30px 300px;
+    border-radius: 10px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 100px 400px;
+    align-content: center;
+}
+#tarjetausuario .conteIzq:nth-child(1) img{
+    max-width: 270px;
+}
+.conteIzq:nth-child(1){
+    display: block;
+    width: fit-content;
+}
+.conteIzq:nth-child(1){
+    display: block;
+    width: max-content;
+}
+.estrellas img{
+    max-height: 21px;
+}
+.conteIzq .conteDer {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 16px;
+}
+.conteDer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.conteIzq .conteDer .estrellas{
+    justify-self: end;
+}
+.espacios{
+    margin: 0;
+}
+.infousuario{
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+    margin: auto;
+}
+.informacionP{
+    font-size: 22px;
+    line-height: 21px;
+    color: #002b39;
+    font-weight: 500;
+}
+.profesion{
+    font-size: 20px;
+    line-height: 18px;
+    color: #1489ff;
+}
+.descripcion{
+    font-size: 16px;
+    line-height: 21px;
+    color: #002b39;
+}
+span{
+    margin: 0;
+}
+ /*hacerlo responsive*/
+
+@media screen and (min-width:630px) {
+    #tarjetausuario{
+        grid-template-columns: auto auto;
+    }
+    .conteIzq:nth-child(1){
+        justify-self: start;
+    }
+}
+/*
+@media screen and (min-width:1200px) {
+    #background {
+        width: 1400px;
+    }
+}*/
+/*2da seccion*/
+
+#infocursos{
+    display: flex;
+    justify-content: center;
+    margin: 20px 100px 80px 140px;
+}
+.titulo2{
+    height: auto;
+    width: fit-content;
+    margin: auto;
+}
+.sesiones{
+    margin:auto;
+}
+.descurso{
+    height: auto;
+    width: fit-content;
+    margin: 10px 50px 20px 65px;
+    position: relative;
+    text-align: center;
+}
+/*@media screen and (max-width:767px){
+    #infocursos{
+        display: block;
+        text-align: center;
+        width: 300px;
+    }
+}*/
+/*3ra parte*/
+.procesoRegistrp{
+    display: block;
+    max-width: 868px;
+    margin: auto;
+    text-align: center;
+}
+.divisionColumnas .columna div{
+    display: block;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    position: center;
+}
+#img_1{
+    background: url(img/Grupo\ 9210.webp) no-repeat;
+    margin-top: 40px;
+}
+#img_1:hover{
+    background: url(img/nuevo7023.svg) no-repeat;
+    margin-top: 40px;
+}
+#img_2{
+    background: url(img/Grupo\ 7025.webp) no-repeat;
+    margin-top: 40px;
+}
+#img_2:hover{
+    background: url(img/nuevo7025.svg) no-repeat;
+    margin-top: 40px;
+}
+#img_3{
+    background: url(img/Grupo\ 7024.webp) no-repeat;
+    margin-top: 40px;
+}
+#img_3:hover{
+    background: url(img/Grupo-7024-1.svg) no-repeat;
+    margin-top: 40px;
+}
+.divisionColumnas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: url(img/Rectángulo\ 8199@3x.webp) no-repeat;
+    background-size: 76%;
+    background-position: center;
+    margin: 20px 300px 20px 300px; 
+    text-align: center;
+}
+.divisionColumnas .columna:first-child{
+    justify-self: start;
+}
+.divisionColumnas .columna:last-child{
+    justify-self: end;
+}
+.columna div:hover{
+    cursor: pointer;
+}
+#registro{
+    color: white;
+    background-image: linear-gradient(0deg,#007fff 0%, #00b1ff 100%);
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+#registro:hover{
+    color: #1489ff;
+    background: white;
+    border-color: #1489ff;
+    cursor: pointer;
+}
+#titulo3{
+    margin: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+.texto{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.columna img{
+    max-width: 44px;
+    max-height: 27px;
+}
+/*reponsive*/
+/*@media screen and (max-width:776px) {
+    #titulo3{
+        text-align: center;
+        font-size: 20px;
+    }
+    .divisionColumnas{
+        display: block;
+        text-align: center;
+        background: url();
+        width: 165px;
+    }
+    .columna{
+        line-height: 36px;
+    }
+}*/
+
+/*4ta parte*/
+#mockup{
+    background: url(img/Enmascarar-grupo-258402x.png);
+    background-size: 100%;
+    background-position: center;
+}
+#imagenesSuperpuestas{
+    display: grid;
+    grid-template-columns: 25% 25%;
+    align-items: start;
+    width: 100%;
+    position: relative;
+    margin: 100px auto 100px auto;
+    justify-content: center;
+    justify-items: center;
+}   
+#img1{
+    width: 5oopx;
+    height: 400px;
+}
+#img2{
+    width: 600px;
+    height: 300px;
+}
+/*reponsive*/
+/*@media screen and (max-width:776px) {
+    #imagenesSuperpuestas{
+        width: 75%;
+        text-align: center;
+    }
+    #img1{
+        width: 25opx;
+        height: 200px;
+    }
+    #img2{
+        width: 300px;
+        height: 150px;
+    }
+    #registro{
+    padding: 7px 15px;
+    border-radius: 4px;
+    margin: auto;
+    }
+}*/
+/*5ta parte*/
+#backgroundCuarto{
+    background: url(img/Enmascarar-grupo-285@3x-scaled.webp) no-repeat;
+   background-size: 100%;
+   background-position: center;
+   height: 1097px;
+}
+.CaracteristicasVenn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    inline-size: fit-content;
+    margin: -292px auto;
+    padding: 1px
+}
+.cuadroCaracteristica{
+    border: 1px solid #002b39;
+    border-radius: 10%;
+    margin: 20px 38px 20px 34px;
+    padding: 30px 38px;
+    box-shadow: 0 20px 15px 0 rgb(26 72 100 / 10%);
+    border: solid 1px #c3d5e0;
+    background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0feff);
+    text-align: center;
+    height: 72px;
+    width: 200px;
+}
+h4{
+    text-align: center;
+    font-size: 45px;
+    font: bold;
+    margin: 148px;
+    padding: 176px;
+    line-height: 45px;
+}
+.negritas{
+    font-weight: bold;
+    line-height: 5px;
+}
+/*Pie de pagina*/
+#backgroundfooter{
+    background-color: #1489ff;
+    height: 225px;
+    margin-top: 120px;
+}
+#gridfooter{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#logofooter{
+        margin: 35px 0px auto 157px;
+}
+#redes{
+    margin: 35px 0px auto 580px;
+}
+.redesvenn{
+    margin: 10px;
+}
+#condicioneslegales{
+    text-align: end;
+    margin: 30px 122px;
+}
+.letrablanca{
+    color: #fff;
+    margin: 10px;
+}
+#linea{
+    width: 1046px;
+    color: #fff;
+    size: 2px;
+    margin-left: 160px;
+}
+
+    
