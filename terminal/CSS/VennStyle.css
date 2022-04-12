@@ -126,3 +126,31 @@ span{
     }
 }*/
 /*2da seccion*/
+#infocursos{
+    display: flex;
+    justify-content: center;
+    margin: 20px 100px 80px 140px;
+}
+.titulo2{
+    height: auto;
+    width: fit-content;
+    margin: auto;
+}
+.sesiones{
+    margin:auto;
+}
+.descurso{
+    height: auto;
+    width: fit-content;
+    margin: 10px 50px 20px 65px;
+    position: relative;
+    text-align: center;
+}
+/*@media screen and (max-width:767px){
+    #infocursos{
+        display: block;
+        text-align: center;
+        width: 300px;
+    }
+}*/
+/*3ra parte*/
