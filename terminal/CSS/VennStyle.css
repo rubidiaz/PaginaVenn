@@ -1,0 +1,73 @@
+*{
+    font-family: 'Hind', sans-serif;   
+}
+
+#tarjetausuario{
+    border: 1px solid rgb(199, 199, 199);
+    max-width: 629px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#tarjetausuario .conteIzq:nth-child(1) img{
+    max-width: 270px;
+}
+.conteIzq:nth-child(1){
+    display: block;
+    width: fit-content;
+}
+.conteIzq:nth-child(1){
+    display: block;
+    width: max-content;
+}
+.estrellas img{
+    max-height: 21px;
+}
+.conteIzq .conteDer {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 16px;
+}
+.trabajo .estrellas{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.conteIzq .conteDer .estrellas{
+    justify-self: end;
+}
+.espacios{
+    margin: 0;
+}
+.infousuario{
+    font-weight: 500;
+    color: rgb(58, 57, 57);
+}
+.informacionP{
+    font-size: 22px;
+    line-height: 21px;
+    color: #002b39;
+    font-weight: 500;
+}
+.profesion{
+    font-size: 20px;
+    line-height: 18px;
+    color: #1489ff;
+}
+.descripcion{
+    font-size: 16px;
+    line-height: 21px;
+    color: #002b39;
+}
+span{
+    margin: 0;
+}
+@media screen and (min-width:630px) {
+    #tarjetausuario{
+        grid-template-columns: auto auto;
+    }
+    .conteIzq:nth-child(1){
+        justify-self: start;
+    }
+}
