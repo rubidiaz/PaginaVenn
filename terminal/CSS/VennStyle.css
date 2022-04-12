@@ -300,3 +300,76 @@ span{
     margin: auto;
     }
 }*/
+/*5ta parte*/
+#backgroundCuarto{
+    background: url(img/Enmascarar-grupo-285@3x-scaled.webp) no-repeat;
+   background-size: 100%;
+   background-position: center;
+   height: 1097px;
+}
+.CaracteristicasVenn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    inline-size: fit-content;
+    margin: -292px auto;
+    padding: 1px
+}
+.cuadroCaracteristica{
+    border: 1px solid #002b39;
+    border-radius: 10%;
+    margin: 20px 38px 20px 34px;
+    padding: 30px 38px;
+    box-shadow: 0 20px 15px 0 rgb(26 72 100 / 10%);
+    border: solid 1px #c3d5e0;
+    background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0feff);
+    text-align: center;
+    height: 72px;
+    width: 200px;
+}
+h4{
+    text-align: center;
+    font-size: 45px;
+    font: bold;
+    margin: 148px;
+    padding: 176px;
+    line-height: 45px;
+}
+.negritas{
+    font-weight: bold;
+    line-height: 5px;
+}
+/*Pie de pagina*/
+#backgroundfooter{
+    background-color: #1489ff;
+    height: 225px;
+    margin-top: 120px;
+}
+#gridfooter{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#logofooter{
+        margin: 35px 0px auto 157px;
+}
+#redes{
+    margin: 35px 0px auto 580px;
+}
+.redesvenn{
+    margin: 10px;
+}
+#condicioneslegales{
+    text-align: end;
+    margin: 30px 122px;
+}
+.letrablanca{
+    color: #fff;
+    margin: 10px;
+}
+#linea{
+    width: 1046px;
+    color: #fff;
+    size: 2px;
+    margin-left: 160px;
+}
+
+    
