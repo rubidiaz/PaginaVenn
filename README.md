@@ -1,2 +1,2 @@
-# ejercicioGIT
+# PaginaVenn
 Tech Academy 
