@@ -30,7 +30,6 @@ Strukturen für Benutzeroberflächen umzusetzen.
 ## 💬 Persönlicher Hintergrund
 Nach Abschluss des Kurses bin ich ausgewandert und habe mich zunächst auf die 
 Integration, das Erlernen der deutschen Sprache und die berufliche Orientierung 
-konzentriert. Jetzt, mit mehr Stabilität und Klarheit über meinen beruflichen 
-Weg, möchte ich meine Ausbildung in der Softwareentwicklung wieder aufnehmen 
-und mich im Rahmen eines Ausbildungsvertrags im Bereich Anwendungsentwicklung 
-weiterqualifizieren.
+konzentriert. Jetzt möchte ich meine Kenntnisse in der Softwareentwicklung wieder 
+aufgreifen, gezielt vertiefen und mich im Rahmen einer Ausbildung zur 
+Fachinformatikerin für Anwendungsentwicklung professionell weiterentwickeln.
